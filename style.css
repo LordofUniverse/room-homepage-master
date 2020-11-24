@@ -1,0 +1,174 @@
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  font-family: "Spartan";
+  font-size: 0.8rem;
+  font-weight: 500;
+  width: 74.6rem;
+  background-color: white;
+  height: 40rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  height: 25rem;
+  width: 75rem;
+}
+
+.box2 {
+  height: 15rem;
+  width: 75rem;
+}
+
+.box11 {
+  height: 25rem;
+  width: 39.3rem;
+  background-image: url("images/desktop-image-hero-1.jpg");
+  background-size: contain;
+}
+
+.box12 {
+  height: 25rem;
+  width: 35.4rem;
+  position: relative;
+}
+
+.box21 {
+  height: 15rem;
+  width: 23.8rem;
+  background-image: url("images/image-about-dark.jpg");
+  background-size: contain;
+}
+
+.box22 {
+  height: 15rem;
+  width: 26rem;
+}
+
+.box23 {
+  height: 15rem;
+  width: 24.8rem;
+  background-image: url("images/image-about-light.jpg");
+  background-size: contain;
+}
+
+.box11alig {
+  margin-top: 2.4rem;
+  margin-left: 3rem;
+}
+
+.box11alig a {
+  margin-left: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.box11alig a:hover {
+  text-decoration: underline;
+}
+
+.sho {
+  width: 17rem;
+  color: black;
+  text-decoration: none;
+  margin-left: 6rem;
+}
+
+.shojs {
+  margin-top: 2rem;
+}
+
+.sho:hover {
+  color: red;
+}
+
+.sho p {
+  letter-spacing: 0.7rem;
+}
+
+.arrow {
+  height: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+}
+
+.box12p1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  margin-right: 3rem;
+}
+
+.box12p2 {
+  margin-left: 6rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  opacity: 0.3;
+}
+
+.box22p1 {
+  font-weight: 700;
+  margin-top: 3.5rem;
+  margin-left: 2.5rem;
+}
+
+.box22p2 {
+  margin-left: 2.5rem;
+  margin-right: 4rem;
+  opacity: 0.3;
+}
+
+.arrows {
+  position: absolute;
+  height: 3.5rem;
+  width: 7rem;
+  bottom: 0;
+  left: 0;
+}
+
+.arrowsh {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: black;
+}
+
+.arrowsh:hover {
+  background-color: hsl(0, 0%, 27%);
+}
+
+.before {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  opacity: 0.5;
+}
+
+.next {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  opacity: 0.5;
+}
